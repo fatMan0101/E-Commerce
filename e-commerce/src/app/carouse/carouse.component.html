@@ -1,0 +1,26 @@
+<div class="carouse-bg">
+<div *ngIf="images && images.length > 0" class="carouse-container">
+  <img *ngFor="let image of images; let i=index"
+        [src]="image.imageSrc" [alt]="image.imageAlt"
+        [ngClass]="{'image-active': selectedIndex === i}"
+  >
+  <div *ngIf="indicators" class="carouse-dot-container">
+    <span *ngFor="let dot of images; let i=index"
+    class="dot"
+    [ngClass]="{'active':selectedIndex === i}"
+    (click)="selectImage(i)"
+    >
+    </span>
+  </div>
+  <button *ngIf="controls" class="btn-carouse btn-prev"
+  (click)="onPrevClick()"
+  >
+  <i class="fas fa-arrow-circle-left icon-carouse icon-prev"></i>
+  </button>
+  <button *ngIf="controls" class="btn-carouse btn-next"
+  (click)="onNextClick()"
+  >
+  <i class="fas fa-arrow-circle-right icon-carouse icon-next"></i>
+  </button>
+</div>
+</div>

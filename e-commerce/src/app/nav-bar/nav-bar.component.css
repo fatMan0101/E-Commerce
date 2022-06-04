@@ -1,0 +1,40 @@
+.navbar{
+margin-top: 0;
+height: 100px;
+}
+.logo img{
+  width: auto;
+  height: auto;
+  margin-top: -100px;
+  margin-bottom: -90px;
+}
+button.btn.btn-outline-secondary {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.btn i{
+  margin-right: 2px;
+}
+hr.hrr{
+	background-color: #fff;
+	border-top: 4px dashed #118ab2;
+}
+.container .navbarr .navbar2 ul:first-child{
+  text-align: center;
+  margin-left: 2.5vh;
+}
+.container .navbarr .navbar2 ul li{
+  display: inline-block;
+
+}
+.row .col .d-inline-block a{
+  text-decoration: none;
+
+}
+

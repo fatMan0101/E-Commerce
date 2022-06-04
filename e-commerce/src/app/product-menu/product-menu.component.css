@@ -1,0 +1,69 @@
+.carousel-width{
+  margin: 1vh;
+}
+.card{
+  width:350px;
+  height:370px;
+  margin: 1vh;
+}
+.image{
+  position:absolute;
+  width: 200px;
+  height: auto;
+  right:12px;
+  top:10px;
+}
+.main-heading{
+  font-size:40px;
+  color:red !important;
+}
+.ratings i{
+  color:orange;
+}
+.user-ratings h6{
+  margin-top:2px;
+}
+.colors{
+  display:flex;
+  margin-top:2px;
+}
+.colors span{
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  cursor:pointer;
+  display:flex;
+  margin-right:6px;
+}
+.colors span:nth-child(1) {
+  background-color:red;
+}
+.colors span:nth-child(2) {
+  background-color:blue;
+}
+.colors span:nth-child(3) {
+  background-color:yellow;
+}
+.colors span:nth-child(4) {
+  background-color:purple;
+}
+.btn-danger{
+  height:48px;
+  font-size:18px;
+}
+.products{
+  margin-right: 5%;
+  margin-left: 5%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.d-flex{
+  flex-wrap: wrap;
+}
+.btn{
+  float: right;
+  margin-left: 1vh;
+
+}
